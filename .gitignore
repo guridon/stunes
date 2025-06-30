@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -205,3 +206,37 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+=======
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 가상환경
+venv/
+env/
+ENV/
+.venv/
+.env/
+
+# 환경변수
+.env
+.env.local
+.env.production
+
+# IDE/에디터
+.vscode/
+.idea/
+
+# macOS
+.DS_Store
+
+# 로그/DB/테스트
+*.log
+*.db
+*.sqlite3
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+>>>>>>> 6368306 (Initial commit)
